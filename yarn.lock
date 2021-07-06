@@ -1285,7 +1285,7 @@
     "@handlebars/parser" "^1.1.0"
     simple-html-tokenizer "^0.5.10"
 
-"@glimmer/tracking@^1.0.2", "@glimmer/tracking@^1.0.4":
+"@glimmer/tracking@^1.0.0", "@glimmer/tracking@^1.0.2", "@glimmer/tracking@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@glimmer/tracking/-/tracking-1.0.4.tgz#f1bc1412fe5e2236d0f8d502994a8f88af1bbb21"
   integrity sha512-F+oT8I55ba2puSGIzInmVrv/8QA2PcK1VD+GWgFMhF6WC97D+uZX7BFg+a3s/2N4FVBq5KHE+QxZzgazM151Yw==
@@ -12847,6 +12847,14 @@ tr46@^2.1.0:
   integrity sha512-15Ih7phfcdP5YxqiB+iDtLoaTz4Nd35+IiAv0kQ5FNKHzXgdWqPoTIqEDDJmXceQt4JZk6lVPT8lnDlPpGDppw==
   dependencies:
     punycode "^2.1.1"
+
+tracked-maps-and-sets@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/tracked-maps-and-sets/-/tracked-maps-and-sets-2.2.1.tgz#323dd40540c561e8b0ffdec8bf129c68ec5025f9"
+  integrity sha512-XYrXh6L/GpGmVmG3KcN/qoDyi4FxHh8eZY/BA/RuoxynskV+GZSfwrX3R+5DR2CIkzkCx4zi4kkDRg1AMDfDhg==
+  dependencies:
+    "@glimmer/tracking" "^1.0.0"
+    ember-cli-babel "^7.17.2"
 
 traverse@^0.6.6:
   version "0.6.6"
